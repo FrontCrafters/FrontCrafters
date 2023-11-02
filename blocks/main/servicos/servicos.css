@@ -1,0 +1,25 @@
+.servicos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  column-gap: 45px;
+}
+.services__card{
+  border: 1px solid rgba(7, 37, 56, 1);
+  width: 350px;
+  box-shadow: 1px 1px 1px 1px rgba(7, 37, 56, 1);
+  height: 240px;
+  background-color: rgba(7, 37, 56, .5);
+}
+.service__image{
+  width: 56px;
+  height: 56px;
+}
+.service__name{
+
+}

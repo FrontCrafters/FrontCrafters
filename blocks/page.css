@@ -12,8 +12,25 @@
     rgba(4, 13, 26, 1) 100%
   );
   color: #f9f9f9;
-  width: 70%;
+
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+.blur {
+  background: rgb(32,193,204);
+  background: linear-gradient(
+    45deg,  /* Ângulo de inclinação do gradiente */
+    rgba(10, 61, 86, 1) 0%,  /* Cor de início e sua posição */
+    rgba(255, 255, 255, 1) 50%,  /* Cor intermediária (branca) */
+    rgba(4, 13, 26, 1) 100%  /* Cor final e sua posição */
+  );
+  filter: blur(90px);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  z-index: 0;
+  top: -50px;
+  right: 50px;
 }
