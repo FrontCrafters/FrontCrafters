@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>FrontCrafter</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <nav class="menu">
+        <img
+          src="./image/logo.png"
+          class="logo"
+          alt="logo da organização FrontCrafters"
+        />
+        <ul class="menu__links">
+          <li class="menu__link"><a class="link" href="#">Home</a></li>
+          <li class="menu__link"><a class="link" href="#">Sobre nós</a></li>
+          <li class="menu__link"><a class="link" href="#">Projetos</a></li>
+          <li class="menu__link"><a class="link" href="#">Serviços</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__conteiner">
+        <div class="texts">
+          <h1 class="title">Olá, Somos a FrontCrafters</h1>
+          <p class="subtitle">Desenvolvedor Web Full Stack e Designer UI/UX.</p>
+          <a href="seuarquivo.pdf" download="nome_do_arquivo.pdf">
+            <button class="btn btn--primary">Download CV</button>
+          </a>
+        </div>
+
+        <div class="image">
+          <div class="blur"></div>
+          <img
+            class="header__image"
+            src="./image/geradoImage.jpeg"
+            alt="Foto do Erick Dias"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="about">
+        <div class="about__texts">
+          <h2 class="title title--secondary">
+            Conheça um pouco sobre nossa Organização!
+          </h2>
+          <p class="about__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+            dignissimos. Odio voluptatibus asperiores expedita animi tempora
+            quos quia omnis, impedit atque magnam obcaecati dolorum
+            necessitatibus maxime repellendus reprehenderit, nostrum quis.
+          </p>
+        </div>
+        <ul class="about__contatos">
+          <li class="contact">
+            <img class="contact__image" src="./image/smile.png" alt="" />
+            <p class="contact__title">FrontCrafter</p>
+            <p class="contact__text">Aqui seu Problema será resolvido</p>
+          </li>
+          <li class="contact">
+            <img class="contact__image" src="./image/mail.png" alt="" />
+            <p class="contact__title">Email</p>
+            <p class="contact__text">erickydias@frontcrafter.pt</p>
+          </li>
+          <li class="contact">
+            <img class="contact__image" src="./image/instagram.png" alt="" />
+            <p class="contact__title">Instagram</p>
+            <p class="contact__text">
+              <a
+                href="https://www.instagram.com/frontcrafters/"
+                class="link contact__text"
+                >@frontCrafter</a
+              >
+            </p>
+          </li>
+
+          <li class="contact">
+            <img class="contact__image" src="./image/phone.png" alt="" />
+            <p class="contact__title">Telefone</p>
+            <p class="contact__text">+351 923-910-525</p>
+          </li>
+        </ul>
+      </section>
+      <section class="projetos" id="projetos">
+        <div class="shadow">
+          <div class="projeto">
+            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+            <p class="projetos__title"><a href="">BikeCraft</a></p>
+            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          </div>
+        </div>
+        <div class="shadow">
+          <div class="projeto">
+            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+            <p class="projetos__title"><a href="">BikeCraft</a></p>
+            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          </div>
+        </div>
+        <div class="shadow">
+          <div class="projeto">
+            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+            <p class="projetos__title"><a href="">BikeCraft</a></p>
+            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          </div>
+        </div>
+        <div class="shadow">
+          <div class="projeto">
+            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+            <p class="projetos__title"><a href="">BikeCraft</a></p>
+            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          </div>
+        </div>
+        <div class="shadow">
+          <div class="projeto">
+            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+            <p class="projetos__title"><a href="">BikeCraft</a></p>
+            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          </div>
+        </div>
+      </section>
+      <section class="servicos">
+        <h2 class="title title--tertiary">Nossos Serviços</h2>
+        <div class="services__cards">
+          <div class="services__card">
+            <img class="service__image" src="./image/code.svg" alt="" />
+            <h4 class="service__name">Design Gráfico</h4>
+          </div>
+          <div class="services__card">
+            <img class="service__image" src="./image/figma.svg" alt="" />
+            <h4 class="service__name">Design Gráfico</h4>
+          </div>
+          <div class="services__card">
+            <img class="service__image" src="./image/smartphone.svg" alt="" />
+            <h4 class="service__name">Design Gráfico</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <template id="templete-card">
+      <li class="contact">
+        <img class="contact__image" src="" alt="" />
+        <p class="contact__title"></p>
+        <p class="contact__text"></p>
+      </li>
+    </template>
+    <footer class="footer">
+      <p class="copy">&copy; FrontCrafter - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./pages/index.js"></script>
+  </body>
+</html>
