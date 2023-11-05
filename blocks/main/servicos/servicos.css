@@ -16,6 +16,11 @@
   height: 240px;
   background-color: rgba(7, 37, 56, .5);
 }
+.title--tertiary {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 25px;
+}
 .service__image{
   width: 56px;
   height: 56px;

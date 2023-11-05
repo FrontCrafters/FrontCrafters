@@ -11,8 +11,16 @@
   height: 150px;
   margin: 20px 25px;
 }
+.title__projeto{
+  margin-bottom: 30px;
+}
+.texts{
+  margin-bottom: 10px;
+}
 .projetos__title{
   margin: 0 25px 10px;
+  color: #00DF5E;
+  text-decoration: none;
 }
 .projetos__text{
   margin: 0 25px 0;

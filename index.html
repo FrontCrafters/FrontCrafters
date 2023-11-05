@@ -26,9 +26,9 @@
         <div class="texts">
           <h1 class="title">Olá, Somos a FrontCrafters</h1>
           <p class="subtitle">Desenvolvedor Web Full Stack e Designer UI/UX.</p>
-          <a href="seuarquivo.pdf" download="nome_do_arquivo.pdf">
+          <!-- <a href="seuarquivo.pdf" download="nome_do_arquivo.pdf">
             <button class="btn btn--primary">Download CV</button>
-          </a>
+          </a> -->
         </div>
 
         <div class="image">
@@ -85,43 +85,55 @@
           </li>
         </ul>
       </section>
-      <section class="projetos" id="projetos">
-        <div class="shadow">
-          <div class="projeto">
-            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
-            <p class="projetos__title"><a href="">BikeCraft</a></p>
-            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+
+      <section class="" id="projetos">
+        <h2 class="title title--secondary">Projetos</h2>
+        <div class="projetos">
+          <div class="shadow">
+            <div class="projeto">
+              <img class="projetos__image" src="./image/bickcraft.png" alt="" />
+              <p class="texts">
+                <a
+                  href="https://bike-craft-origamid.vercel.app/"
+                  target="_blank"
+                  class="projetos__title"
+                  >BikeCraft</a
+                >
+              </p>
+              <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+            </div>
           </div>
-        </div>
-        <div class="shadow">
-          <div class="projeto">
-            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
-            <p class="projetos__title"><a href="">BikeCraft</a></p>
-            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          <div class="shadow">
+            <div class="projeto">
+              <img class="projetos__image" src="./image/Captura de ecrã 2023-11-05 013351.png" alt="" />
+              <p class="texts">
+                <a
+                  href="https://heavenshair.pt"
+                  target="_blank"
+                  class="projetos__title"
+                  >HeavensHair</a
+                >
+              </p>
+              <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+            </div>
           </div>
-        </div>
-        <div class="shadow">
-          <div class="projeto">
-            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
-            <p class="projetos__title"><a href="">BikeCraft</a></p>
-            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
-          </div>
-        </div>
-        <div class="shadow">
-          <div class="projeto">
-            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
-            <p class="projetos__title"><a href="">BikeCraft</a></p>
-            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
-          </div>
-        </div>
-        <div class="shadow">
-          <div class="projeto">
-            <img class="projetos__image" src="./image/bickcraft.png" alt="" />
-            <p class="projetos__title"><a href="">BikeCraft</a></p>
-            <p class="projetos__text">Tecnologias: HTML, CSS e JS.</p>
+          <div class="shadow">
+            <div class="projeto">
+              <img class="projetos__image" src="./image/lescone.png" alt="" />
+              <p class="texts">
+                <a
+                  href="https://project-origamid-new-sass.vercel.app/"
+                  target="_blank"
+                  class="projetos__title"
+                  >LeScone</a
+                >
+              </p>
+              <p class="projetos__text">Tecnologias: HTML, SASS e JS.</p>
+            </div>
           </div>
         </div>
       </section>
+
       <section class="servicos">
         <h2 class="title title--tertiary">Nossos Serviços</h2>
         <div class="services__cards">
@@ -141,11 +153,13 @@
       </section>
     </main>
     <template id="templete-card">
-      <li class="contact">
-        <img class="contact__image" src="" alt="" />
-        <p class="contact__title"></p>
-        <p class="contact__text"></p>
-      </li>
+      <div class="shadow">
+        <div class="projeto">
+          <img class="projetos__image" src="" alt="" />
+          <p class="projetos__title"><a href=""></a></p>
+          <p class="projetos__text"></p>
+        </div>
+      </div>
     </template>
     <footer class="footer">
       <p class="copy">&copy; FrontCrafter - Todos os direitos reservados.</p>

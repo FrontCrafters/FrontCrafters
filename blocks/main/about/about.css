@@ -7,13 +7,21 @@ justify-content: center;
 .about__texts{
 text-align: center;
 }
-.title--secondary{
-border: 2px solid red;
-margin: 0 auto 20px;
 
+.title--secondary{
+  width: 500px;
+margin: 0 auto 20px;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
 }
 .about__text{
 color: #828282;
+margin: 0 0 20px;
+font-weight: 700;
+font-size: 18px;
+
 }
 
 
@@ -34,7 +42,7 @@ align-items: center;
 .contact{
 }
 .contact__image{
-margin: 20px 0 10px;
+margin: 20px 0 0;
 }
 .contact__title{
   margin: 20px 0 10px;

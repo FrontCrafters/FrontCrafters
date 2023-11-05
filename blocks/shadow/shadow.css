@@ -24,7 +24,7 @@
   animation: animate 3s ease alternate infinite;
  }
  .shadow:after{
-  filter: blur(20px);
+  filter: blur(5px);
  }
  @keyframes animate{
   0%{

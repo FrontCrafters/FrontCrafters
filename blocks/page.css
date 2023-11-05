@@ -25,12 +25,12 @@
     rgba(255, 255, 255, 1) 50%,  /* Cor intermediária (branca) */
     rgba(4, 13, 26, 1) 100%  /* Cor final e sua posição */
   );
-  filter: blur(90px);
-  width: 200px;
-  height: 200px;
+  filter: blur(130px);
+  width: 100px;
+  height: 100px;
   display: flex;
   position: absolute;
   z-index: 0;
-  top: -50px;
+  top: 50px;
   right: 50px;
 }
